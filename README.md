@@ -31,7 +31,7 @@ The input parameters k_i and g_i for i = {0,1} can be changed from the main file
 
 In the domain [2,8] for 
        
-    k_0 = 10^6, K_1 = 0 and g_0 = -1. <br / >
+    k_0 = 10^6, K_1 = 0 and g_0 = -1.  
     with a(x) = 0.1*(5 - 0.6*x)
     and f(x) = 0.03*(x-6)**4
 we have the approximated solution U_h is: <br />
