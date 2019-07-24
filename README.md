@@ -18,7 +18,8 @@ The main file is <PoissonSolver1D.py><br />
  
 ## a(x) and f(x):
 
-    You can change the input functions a(x) and f(x) for a specific problem from the file <inputfuncs.py> 
+    You can change the input functions a(x) and f(x) for a specific problem from the file <inputfuncs.py>
+
 ## k and g:
 
 The input parameters k_i and g_i for i = {0,1} can be changed from the main file <PoissonSolver1D.py>.
