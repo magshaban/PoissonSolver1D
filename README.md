@@ -1,5 +1,5 @@
 # PoissonSolver1D
- This a python solver for Poisson equation in 1D using FEM.<br />
+ This is a python solver for Poisson equation in 1D using FEM.<br />
 The main file is <PoissonSolver1D.py><br />
 
  The Poisson eguation given as following: 
@@ -31,9 +31,15 @@ The input parameters k_i and g_i for i = {0,1} can be changed from the main file
 
 In the domain [2,8] for 
        
-    k_0 = 10^6, K_1 = 0 and g_0 = -1.  
+    k_0 = 10^6 (i.e. K_0 is very large which leads to u(2) = g_0), K_1 = 0 and g_0 = -1.  
     with a(x) = 0.1*(5 - 0.6*x)
-    and f(x) = 0.03*(x-6)**4
+    and f(x) = 0.03*(x-6)^4
+    
+i.e. the solved poisson equation is:
+
+    -((0.1*(5 - 0.6*x))u'(x))' = 0.03*(x-6)^4  for all x belongs to I = (2,8)  
+     u(2) = -1,  (0.1*(5 - 0.6*x)u'(8) = 0
+
 we have the approximated solution U_h is: <br />
 
 ![result](/solution.png)
