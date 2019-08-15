@@ -1,5 +1,5 @@
 # PoissonSolver1D
- This is a python solver for Poisson equation in 1D using FEM.<br />
+This is a Poisson 2D equation Python solver using FEM.<br />
 The main file is <PoissonSolver1D.py><br />
 
  The Poisson eguation given as following: 
@@ -41,7 +41,7 @@ i.e. the solved poisson equation is:
     -((0.1*(5 - 0.6*x))u'(x))' = 0.03*(x-6)^4  for all x belongs to I = (2,8)  
      u(2) = -1,  (0.1*(5 - 0.6*x)u'(8) = 0
 
-we have the approximated solution U_h is: <br />
+we have the approximated solution U_h: <br />
 
 ![result](/solution.png)
 <br />
@@ -49,7 +49,7 @@ we have the approximated solution U_h is: <br />
 Where the linear shape functions is:<br />
 ![result1](/shapefun.png)
 <br />
-which gives the mass matrix: <br />
+which gives the stiffness  matrix: <br />
 ![result55](/massmat.png)
 <br />
 
